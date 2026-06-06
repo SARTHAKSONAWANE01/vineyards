@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vineyards · JK Farms</title>
+  <meta name="description" content="JK Farms vineyards website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Primary">
+      <div class="brand">
+        <span class="logo">JK</span>
+        <span class="brand-text">Vineyards</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#visit">Visit</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <h1 data-aos="fade-up" data-aos-delay="50">Taste the terroir of JK Farms</h1>
+        <p class="subtitle" data-aos="fade-up" data-aos-delay="150">Sustainably grown grapes and handcrafted wines in the heart of the valley.</p>
+        <div class="hero-actions" data-aos="fade-up" data-aos-delay="250">
+          <a class="btn primary" href="#visit">Plan your visit</a>
+          <a class="btn ghost" href="#gallery">See the vineyards</a>
+        </div>
+      </div>
+      <div class="hero-bg" aria-hidden="true"></div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container grid two" data-aos="fade-right">
+        <div>
+          <h2>About our craft</h2>
+          <p>For three generations, our family has cultivated vines on mineral-rich slopes, letting each season shape the character of our wines.</p>
+          <p>We farm with biodiversity in mind, nurturing soils and ecosystems that express a distinct sense of place.</p>
+        </div>
+        <div class="card photo" data-aos="zoom-in" data-aos-delay="100">
+          <img src="https://images.unsplash.com/photo-1506806732259-39c2d0268443?q=80&w=1200&auto=format&fit=crop" alt="Sunlit vineyard rows">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="container">
+        <h2 data-aos="fade-up">Gallery</h2>
+        <div class="gallery-grid">
+          <figure class="gallery-item" data-aos="fade-up" data-aos-delay="0">
+            <img src="https://picsum.photos/seed/vine1/600/400" alt="Vineyard scene 1">
+          </figure>
+          <figure class="gallery-item" data-aos="fade-up" data-aos-delay="50">
+            <img src="https://picsum.photos/seed/vine2/600/400" alt="Vineyard scene 2">
+          </figure>
+          <figure class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+            <img src="https://picsum.photos/seed/vine3/600/400" alt="Vineyard scene 3">
+          </figure>
+          <figure class="gallery-item" data-aos="fade-up" data-aos-delay="150">
+            <img src="https://picsum.photos/seed/vine4/600/400" alt="Vineyard scene 4">
+          </figure>
+          <figure class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+            <img src="https://picsum.photos/seed/vine5/600/400" alt="Vineyard scene 5">
+          </figure>
+          <figure class="gallery-item" data-aos="fade-up" data-aos-delay="250">
+            <img src="https://picsum.photos/seed/vine6/600/400" alt="Vineyard scene 6">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="visit">
+      <div class="container grid two" data-aos="fade-left">
+        <div>
+          <h2>Visit us</h2>
+          <p>We host tastings by appointment Friday–Sunday. Stroll the vines, tour our cellar, and taste small-lot wines at the source.</p>
+          <a class="btn primary" href="mailto:hello@jkfarms.example">Book a tasting</a>
+        </div>
+        <div class="card map" data-aos="zoom-in" data-aos-delay="100">
+          <img src="https://images.unsplash.com/photo-1528825871115-3581a5387919?q=80&w=1200&auto=format&fit=crop" alt="Cellar door">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> JK Farms Vineyards</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
